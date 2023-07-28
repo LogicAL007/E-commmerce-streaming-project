@@ -23,3 +23,14 @@ Data Transformation with Apache Spark: The streaming data from Kafka is consumed
 Storing Data in MongoDB: The transformed data is stored in a MongoDB database, a popular NoSQL database that provides flexibility and scalability for handling diverse data types. MongoDB stores the transformed data in a structured manner, allowing for efficient retrieval and analysis.
 
 Visualization with Streamlit Dashboard: To provide a user-friendly interface for data exploration and visualization, a Streamlit dashboard is developed. Streamlit is a Python library for creating interactive web applications, making it easy to build data-driven dashboards. The dashboard enables users to visualize and analyze the data stored in MongoDB in a dynamic and intuitive manner.
+
+
+## Usage/Examples
+
+```javascript
+import Component from 'my-project'
+
+function App() {
+  return <Component />
+}
+```
