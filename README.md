@@ -18,6 +18,8 @@
 
 ## Data Pipeline 
 
+![docstreamingor](https://github.com/LogicAL007/E-commmerce-streaming-project/assets/122959675/3ee32cf2-1f8e-4a96-b6bf-d588de405e83)
+
 The data pipeline follows the following steps:
 
 CSV to JSON Conversion: The pipeline starts by ingesting CSV files as input. It reads the files, extracts the data, and converts it into JSON format. This step ensures that the data is ready for further processing.
