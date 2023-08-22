@@ -24,6 +24,8 @@ The data pipeline follows the following steps:
 
 CSV to JSON Conversion: The pipeline starts by ingesting CSV files as input. It reads the files, extracts the data, and converts it into JSON format. This step ensures that the data is ready for further processing.
 
+testing the api with postman 
+
 Streaming with Kafka: Once the data is converted into JSON, it is streamed using Apache Kafka, which acts as a distributed messaging system. Kafka provides fault-tolerant and scalable data streaming capabilities, allowing for efficient handling of large volumes of data.
 
 Data Transformation with Apache Spark: The streaming data from Kafka is consumed by Apache Spark, a powerful distributed data processing engine. Spark enables data transformation tasks, such as filtering, aggregating, and applying complex computations or machine learning algorithms. The transformed data is then prepared for storage.
