@@ -1,5 +1,5 @@
 # E-commerce Document streaming Data Pipeline
- This project aims to create a data pipeline that processes CSV files, converts them into JSON format, performs data transformation using Apache Spark, stores the transformed data in MongoDB, and provides visualization through a Streamlit dashboar
+ This project aims to create a data pipeline that processes CSV files, converts them into JSON format, performs data transformation using Apache Spark, stores the transformed data in MongoDB, and provides visualization through a Streamlit dashboard
 
 ## Data Sources
 [E-commmerce data](https://www.kaggle.com/datasets/carrie1/ecommerce-data)  from Kaggle
