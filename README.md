@@ -1,5 +1,5 @@
 # E-commerce Document streaming Data Pipeline
- This project aims to create a data pipeline that processes CSV files, converts them into JSON format, performs data transformation using Apache Spark, stores the transformed data in MongoDB, and provides visualization through a Streamlit dashboar
+ This project aims to create a data pipeline that processes CSV files, converts them into JSON format, performs data transformation using Apache Spark, stores the transformed data in MongoDB, and provides visualization through a Streamlit dashboard
 
 ## Data Sources
 [E-commmerce data](https://www.kaggle.com/datasets/carrie1/ecommerce-data)  from Kaggle
@@ -23,6 +23,8 @@
 The data pipeline follows the following steps:
 
 CSV to JSON Conversion: The pipeline starts by ingesting CSV files as input. It reads the files, extracts the data, and converts it into JSON format. This step ensures that the data is ready for further processing.
+
+testing the api with postman 
 
 Streaming with Kafka: Once the data is converted into JSON, it is streamed using Apache Kafka, which acts as a distributed messaging system. Kafka provides fault-tolerant and scalable data streaming capabilities, allowing for efficient handling of large volumes of data.
 
