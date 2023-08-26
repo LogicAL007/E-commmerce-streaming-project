@@ -42,7 +42,7 @@ services:
     ports:
        - '80:80'
     networks:
-      - document_streaming_project_default
+      - document-streaming
 
 networks:
   document-streaming:

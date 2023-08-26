@@ -8,8 +8,8 @@ import requests
 # If you want make this an excercise and replace the process below by reading the whole file at once and going line by line
 
 #set starting id and ending id
-start = 201
-end = 500
+start = 20001
+end = 50000
 
 
 # Loop over the JSON file

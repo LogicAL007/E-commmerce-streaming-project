@@ -3,6 +3,6 @@ FROM tiangolo/uvicorn-gunicorn-fastapi:python3.11
 COPY requirements.txt ./requirement.txt
 
 RUN pip install --no-cache-dir --upgrade pip && \
-    pip install kafka-python
+    pip install --requirement ./requirements.txt
 
 COPY ./app /app

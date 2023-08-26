@@ -31,7 +31,7 @@ if cust_id:
     df.drop_duplicates(subset ="InvoiceNo", keep = 'first', inplace = True)
 
     # Add the table with a headline
-    st.header("Output Customer Invoices")
+    st.header("Customer Invoices")
     table2 = st.dataframe(data=df) 
     
 
@@ -52,7 +52,7 @@ if inv_no:
     reindexed = df.reindex(sorted(df.columns), axis=1)
 
     # Add the table with a headline
-    st.header("Output by Invoice ID")
+    st.header("Invoice ID")
     table2 = st.dataframe(data=reindexed) 
 
 # Get data from MongoDB and convert to Pandas DataFrame
