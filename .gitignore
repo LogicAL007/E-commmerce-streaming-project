@@ -2,3 +2,6 @@ output.txt
 .env
 Kafka Commands.txt
 *.csv
+test
+.pytest_cache
+__pycache__

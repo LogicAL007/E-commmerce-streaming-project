@@ -26,22 +26,13 @@ async def root():
 async def post_invoice_item(item: InvoiceItem):
     print("Message received")
     try:
-        # change the timestamp format
         date = datetime.strptime(item.InvoiceDate, "%d/%m/%Y %H:%M")
         item.InvoiceDate = date.strftime("%d-%m-%Y %H:%M:%S")
         print("New item date:", item.InvoiceDate)
-        
-        # Parse item back to json
         json_of_item = jsonable_encoder(item)
-
-        # Dump the json out as string
         json_as_string = json.dumps(json_of_item)
         print(json_as_string)
-        
-        # Produce the string
         produce_kafka_string(json_as_string)
-
-        # Encode the created customer item if successful into a JSON and return it to the client with 201
         return JSONResponse(content=json_of_item, status_code=201)
     except ValueError:
         return JSONResponse(content=jsonable_encoder(item), status_code=400)
